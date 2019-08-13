@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+flask-script
+flask-migrate
+flask-bootstrap
+flask-login
+pymysql
+gunicorn
