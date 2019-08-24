@@ -20,7 +20,7 @@ def index():
 @demo.route('/admin')
 @check_permission(['admin'])
 @login_required
-def aidmin_ndex():
+def admin_index():
 	uname = current_user.username
 	return jsonify({'code':200, 'messge':'Hello {0}, You are the administrator!'.format(uname) })
 
